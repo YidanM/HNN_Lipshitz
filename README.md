@@ -41,15 +41,21 @@ We provide examples of scripts to perform Lipschitz regularized training for nod
 
 ## 4. File Descriptions
 `data/`: Datasets
+
 `layers/`: Hyperbolic layers
+
 `manifolds/`: Manifold calculations
+
 `models/`: Hyperbolic models
 * `models/base_model.py` contains our Lipschitz bounds calculation and implementation of Lipschitz regularized training.
 * `models/encoders.py` contains the injection of noise perturbations.
 
 `optimizers/`: Optimization on manifolds
+
 `utils/`: Utility files
+
 `train.py`: Training script
+
 `config.py`: Hyperparameter settings
 
 
