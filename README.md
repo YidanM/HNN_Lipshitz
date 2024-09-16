@@ -2,9 +2,9 @@
 
 This repository provides the official implementation of Lipschitz regularization of HNNs from the following paper.
 
-```
-Yuekang Li, Yidan Mao, Yifei Yang, and Dongmian Zou. 2024. Improving Robustness of Hyperbolic Neural Networks by Lipschitz Analysis. In Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD ’24), August 25–29, 2024, Barcelona, Spain. ACM, New York, NY, USA, 12 pages. https://doi.org/10.1145/3637528.3671875
-```
+
+> Yuekang Li, Yidan Mao, Yifei Yang, and Dongmian Zou. 2024. Improving Robustness of Hyperbolic Neural Networks by Lipschitz Analysis. In Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD ’24), August 25–29, 2024, Barcelona, Spain. ACM, New York, NY, USA, 12 pages. https://doi.org/10.1145/3637528.3671875
+
 
 
 ## 1. Environment
@@ -68,12 +68,12 @@ Yuekang Li, Yidan Mao, Yifei Yang, and Dongmian Zou. 2024. Improving Robustness 
 or 
 
 ```
-@inproceedings{
-li2024improving,
-title={Improving Robustness of Hyperbolic Neural Networks by Lipschitz Analysis},
-author={Li, Yuekang, Mao, Yidan, Yang, Yifei and Zou, Dongmian},
-booktitle={30th SIGKDD Conference on Knowledge Discovery and Data Mining - Research Track},
-year={2024}}
+@inproceedings{li2024improving,
+author = {Li, Yuekang and Mao, Yidan and Yang, Yifei and Zou, Dongmian},
+title = {Improving Robustness of Hyperbolic Neural Networks by Lipschitz Analysis},
+year = {2024},
+booktitle = {Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+pages = {1713–1724}}
 ```
 
 ## Reference
