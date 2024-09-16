@@ -2,9 +2,9 @@
 
 This repository provides the official implementation of Lipschitz regularization of HNNs from the following paper.
 
-> Improving Robustness of Hyperbolic Neural Networks by Lipschitz Analysis
-> Yuekang Li, Yidan Mao, Yifei Yang, and Dongmian Zou, 2024.
-> OpenReview: https://openreview.net/forum?id=TUR8pv5l7i
+```
+Yuekang Li, Yidan Mao, Yifei Yang, and Dongmian Zou. 2024. Improving Robustness of Hyperbolic Neural Networks by Lipschitz Analysis. In Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD ’24), August 25–29, 2024, Barcelona, Spain. ACM, New York, NY, USA, 12 pages. https://doi.org/10.1145/3637528.3671875
+```
 
 
 ## 1. Environment
@@ -27,7 +27,7 @@ to create environment variables that are used in the code.
 
 
 ## 3. Examples
-We provide examples of scripts to perform Lipschitz regularized training for node classification. In the examples below, we used a fixed random seed set to 1234 for reproducibility purposes. Results might slightly vary based on the machine used. To reproduce results in the paper, run each script for 10 random seeds and average the results.
+We provide examples of scripts to perform Lipschitz regularized training for node classification. In the examples below, we used a fixed random seed set to 1234 for reproducibility. Results may vary slightly based on the machine used. To reproduce results in the paper, run each script for 10 random seeds and average the results.
 
 
 * 2-layer HNN for Poincaré ball with noise std=0.001
@@ -62,7 +62,7 @@ We provide examples of scripts to perform Lipschitz regularized training for nod
 ## Citation
 
 ```
-Yuekang Li, Yidan Mao, Yifei Yang, and Dongmian Zou. 2024. Improving Robustness of Hyperbolic Neural Networks by Lipschitz Analysis. In Pro- ceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD ’24), August 25–29, 2024, Barcelona, Spain. ACM, New York, NY, USA, 12 pages. https://doi.org/10.1145/3637528.3671875
+Yuekang Li, Yidan Mao, Yifei Yang, and Dongmian Zou. 2024. Improving Robustness of Hyperbolic Neural Networks by Lipschitz Analysis. In Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD ’24), August 25–29, 2024, Barcelona, Spain. ACM, New York, NY, USA, 12 pages. https://doi.org/10.1145/3637528.3671875
 ```
 
 or 
@@ -78,4 +78,4 @@ year={2024}}
 
 ## Reference
 
-For construction of hyperbolic models, we utilized the code available at https://github.com/HazyResearch/hgcn.
+For the construction of hyperbolic models, we utilized the code available at https://github.com/HazyResearch/hgcn.
